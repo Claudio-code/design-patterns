@@ -19,7 +19,7 @@
 <a id="singleton"></a>
 ### :gem: Singleton <br>
 
-### Estrutura principal
+#### Estrutura principal
 
 - Método construtor é privado.
 - Método "getInstance" responsavel por criar o objeto.
@@ -33,3 +33,10 @@
 - Sistema de logs.
 - Não há parametros para sua construção.
 - Acessivel de uma forma global.
+
+#### Consequências => Singleton como um Anti-Pattern
+
+- Alto acoplamento.
+- Acesso global de um objeto.
+- Não é thread safe.
+- Dificuldade para trabalhar com testes.
