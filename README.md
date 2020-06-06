@@ -22,7 +22,9 @@
 ### Estrutura principal
 
 - Método construtor é privado.
-
+- Método "getInstance" responsavel por criar o objeto.
+    - Ele verifica se o objeto existe, caso contrario cria.
+- Possui outros métodos como uma classe qualquer.
 
 #### Motivação usando Exemplos de implementação
 
