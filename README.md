@@ -4,7 +4,9 @@
 
 # :bookmark_tabs: Índice
 
-- [Objetivo](#objetivo)
+- [Objetivo](#objetivo)<br>
+
+- [Singleton](#singleton)
 
 
 
