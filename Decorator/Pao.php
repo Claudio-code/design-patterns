@@ -1,7 +1,7 @@
 <?php
 
 
-abstract class Pão
+abstract class Pao
 {
     protected string $nome;
 
