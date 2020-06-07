@@ -9,4 +9,6 @@ abstract class Pao
     {
         return $this->nome;
     }
+
+    abstract function valor(): float;
 }
