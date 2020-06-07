@@ -5,8 +5,13 @@
 # :bookmark_tabs: Índice
 
 - [Objetivo](#objetivo)
-- [Singleton](#singleton)
-- [Adapter](#adapter)
+
+- Padrões de Criação
+    - [Singleton](#singleton)
+
+- Padrôes Estruturais 
+    - [Adapter](#adapter)
+    - [Decorator](#decorator)
 
 <br><br>
 <a id="objetivo"></a>
@@ -55,3 +60,12 @@
 - Client - é quem vai receber o produto do adapter.
 - Target - é o alvo, é a interface que o cliente tem que implementar.
 - Adapter - é quem vai implementar a interface na classe cliente.
+
+<a id="decorator"></a>
+### :christmas_tree: Decorator <br>
+
+#### Motivação
+
+- Uma alternativa para a criação de subclasses para estender funcionalidades. A intenção é anexar dinamicamente responsabilidades adicionais flexiveis a um o objeto.
+- Aprimorar a extensibilidade do objeto, pois as alterações são feitas codificando novas classes.
+- Simplifica o desenvolvimento permitindo uma série de classes com funcionalidades especificas, ao invés de codificar todo o comportamento do objeto.
