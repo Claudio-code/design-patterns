@@ -4,12 +4,11 @@
 
 # :bookmark_tabs: Índice
 
-- [Objetivo](#objetivo)<br>
-
+- [Objetivo](#objetivo)
 - [Singleton](#singleton)
+- [Adapter](#adapter)
 
-
-
+<br><br>
 <a id="objetivo"></a>
 ## :dart: Objetivo
 
@@ -40,3 +39,19 @@
 - Acesso global de um objeto.
 - Não é thread safe.
 - Dificuldade para trabalhar com testes.
+
+
+<a id="adapter"></a>
+### :wrench: Adapter <br>
+
+#### Motivação
+
+- Converte a interface de uma classe em outra que é esperada pelo cliente.
+- Permitir que a classe que não possuem uma interface comum trabalhem de forma conjunta.
+- Deixar a possibilidade de futuras implementações para o cliente provendo uma interface para seus adaptadores.
+
+#### Conseito
+
+- Client - é quem vai receber o produto do adapter.
+- Target - é o alvo, é a interface que o cliente tem que implementar.
+- Adapter - é quem vai implementar a interface na classe cliente.
