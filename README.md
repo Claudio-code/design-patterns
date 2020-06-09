@@ -20,6 +20,7 @@
 
 - Aqui foram implementados os padões de projeto mais usados com a ultima especificação da linguagem <b>PHP</b> para fins de estudo.
 
+<hr>
 
 <a id="singleton"></a>
 ### :gem: Singleton <br>
@@ -46,6 +47,7 @@
 - Não é thread safe.
 - Dificuldade para trabalhar com testes.
 
+<hr>
 
 <a id="adapter"></a>
 ### :wrench: Adapter <br>
@@ -62,6 +64,8 @@
 - Target - é o alvo, é a interface que o cliente tem que implementar.
 - Adapter - é quem vai implementar a interface na classe cliente.
 
+<hr>
+
 <a id="decorator"></a>
 ### :christmas_tree: Decorator <br>
 
@@ -71,6 +75,7 @@
 - Aprimorar a extensibilidade do objeto, pois as alterações são feitas codificando novas classes.
 - Simplifica o desenvolvimento permitindo uma série de classes com funcionalidades especificas, ao invés de codificar todo o comportamento do objeto.
 
+<hr>
 
 <a id="builder"></a>
 ### :package: Builder <br>
