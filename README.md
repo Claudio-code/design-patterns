@@ -16,6 +16,7 @@
 
 - Padrôes Comportamento
     - [Strategy](#strategy)
+    - [Chain of Responsibility](#chainOfResponsibility)
 
 <br><br>
 <a id="objetivo"></a>
@@ -100,5 +101,13 @@
 
 - Definir uma familia de algoritmos, encapsular cada um, e fazê-los intercambiaveis atraves de uma interface. Assim permitindo que eles mudem independentemente entre os clientes que os utilizam. 
 
-
 <hr>
+
+<a id="chainOfResponsibility"></a>
+### :bomb: Chain of Responsibility <br>
+
+#### Motivação
+
+- Evita dependência do remetente(cliente) de uma requisição ao seu destinatário.
+- Evita acoplar o remetente de uma requisição ao seu destinatário ao dar a mais de um objeto a chance de servir a requisição.
+- Compõe os objetos em cascata e passa a requisição pela corrente até que um objeto sirva.
