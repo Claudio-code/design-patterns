@@ -14,6 +14,9 @@
     - [Adapter](#adapter)
     - [Decorator](#decorator)
 
+- Padrôes Comportamento
+    - [Strategy](#strategy)
+
 <br><br>
 <a id="objetivo"></a>
 ## :dart: Objetivo
@@ -87,3 +90,15 @@
     - É usado quando o algoritimo para criar um objeto complexo precisar ser independente das partes que compõem o objeto e da forma como o objeto é construido.
 - Também suporta substituição dos construtores, permitindo que a mesma interface seja usada para construir representações diferentes dos mesmos dados.
     - è usado quando o processo de construção precisar suportar representações diferentes do objeto que está sendo construido.
+
+<hr>
+
+<a id="strategy"></a>
+### :dart: Strategy <br>
+
+#### Motivação
+
+- Definir uma familia de algoritmos, encapsular cada um, e fazê-los intercambiaveis atraves de uma interface. Assim permitindo que eles mudem independentemente entre os clientes que os utilizam. 
+
+
+<hr>
