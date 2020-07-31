@@ -9,6 +9,7 @@
 - Padrões de Criação
     - [Singleton](#singleton)
     - [Builder](#builder)
+    - [Factory Method](#factoryMethod)
 
 - Padrôes Estruturais 
     - [Adapter](#adapter)
@@ -111,3 +112,10 @@
 - Evita dependência do remetente(cliente) de uma requisição ao seu destinatário.
 - Evita acoplar o remetente de uma requisição ao seu destinatário ao dar a mais de um objeto a chance de servir a requisição.
 - Compõe os objetos em cascata e passa a requisição pela corrente até que um objeto sirva.
+
+<a id="factoryMethod"></a>
+## :star2: Factory Method <br>
+
+- Definir uma interface para criar um objeto, mas deixa as subclasses decidirem que classe instanciar.
+- Criar uma instancia de varias classes derivadas.
+
