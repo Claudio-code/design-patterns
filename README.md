@@ -10,6 +10,7 @@
     - [Singleton](#singleton)
     - [Builder](#builder)
     - [Factory Method](#factoryMethod)
+    - [Abstract Factory](#abstractFactory)
 
 - Padrôes Estruturais 
     - [Adapter](#adapter)
@@ -119,3 +120,9 @@
 - Definir uma interface para criar um objeto, mas deixa as subclasses decidirem que classe instanciar.
 - Criar uma instancia de varias classes derivadas.
 
+
+<a id="abstractFactory"></a>
+## :star2: Abstract Factory <br>
+
+- Fornecer uma interface para criação de familias de objetos relacionados ou dependentes sem especificar suas classes concretas.
+- Cria uma instancia de varias familias de classes.
