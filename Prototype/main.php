@@ -11,7 +11,6 @@ $fase = new Fase();
 $fase->carregarFase();
 
 // carregar personagens
-
 $fase->getPersonagem("npc")->lutar();
 $fase->getPersonagem("vilao")->lutar();
 $fase->getPersonagem("chefao")->lutar();
