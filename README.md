@@ -11,6 +11,7 @@
     - [Builder](#builder)
     - [Factory Method](#factoryMethod)
     - [Abstract Factory](#abstractFactory)
+    - [Prototype](#prototype)
 
 - Padrôes Estruturais 
     - [Adapter](#adapter)
@@ -126,3 +127,9 @@
 
 - Fornecer uma interface para criação de familias de objetos relacionados ou dependentes sem especificar suas classes concretas.
 - Cria uma instancia de varias familias de classes.
+
+<a id="prototype"></a>
+## :station: Prototype <br>
+
+- Especifica os tipos  de objetos a serem criados usuados uma instância do protótipo e criar novos objetos pela cópia deste protótipo.
+- Uma instância a ser copiada ou clonada.
