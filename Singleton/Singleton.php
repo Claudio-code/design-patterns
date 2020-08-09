@@ -1,7 +1,7 @@
 <?php
 
 
-class Singleton
+class VoceSingleton
 {
     private static object $instance;
 
@@ -9,7 +9,7 @@ class Singleton
     {
         if (!isset(self::$instance))
         {
-            self::$instance = new Singleton();
+            self::$instance = new VoceSingleton();
         }
 
         return self::$instance;
@@ -22,8 +22,8 @@ class Singleton
     private function __wakeup() {}
 }
 
-$instance1 = Singleton::getInstance();
-$instance2 = Singleton::getInstance();
+$instance1 = VoceSingleton::getInstance();
+$instance2 = VoceSingleton::getInstance();
 
 var_dump($instance1);
 var_dump($instance2);
