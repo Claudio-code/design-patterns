@@ -3,9 +3,9 @@
 
 class VoceSingleton
 {
-    private static object $instance;
+    private static VoceSingleton $instance;
 
-    public static function getInstance(): object
+    public static function getInstance(): VoceSingleton
     {
         if (!isset(self::$instance))
         {
