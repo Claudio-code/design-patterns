@@ -139,3 +139,10 @@
 
 - Especifica os tipos  de objetos a serem criados usuados uma instância do protótipo e criar novos objetos pela cópia deste protótipo.
 - Uma instância a ser copiada ou clonada.
+
+
+## :bridge_at_night: Bridge
+
+#### Motivação
+
+- Separar o objeto de sua representação e de usa implementação, separando ele em objeto implementação e sua abstração.
