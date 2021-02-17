@@ -1,6 +1,6 @@
 <?php
 
-require_once "Pao.php";
+require_once 'Pao.php';
 
 abstract class RecheioDecorator extends Pao
 {

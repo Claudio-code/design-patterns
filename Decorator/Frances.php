@@ -1,6 +1,6 @@
 <?php
 
-require_once "Pao.php";
+require_once 'Pao.php';
 
 class Frances extends Pao
 {
@@ -8,7 +8,7 @@ class Frances extends Pao
 
     public function __construct(float $valor)
     {
-        $this->nome = "frances";
+        $this->nome = 'frances';
         $this->valor = $valor;
     }
 

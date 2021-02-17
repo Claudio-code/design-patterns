@@ -1,6 +1,5 @@
 <?php
 
-
 abstract class Pao
 {
     protected string $nome;
@@ -10,5 +9,5 @@ abstract class Pao
         return $this->nome;
     }
 
-    abstract function valor(): float;
+    abstract public function valor(): float;
 }

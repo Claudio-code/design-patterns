@@ -1,8 +1,10 @@
 <?php
 
-require_once "Orcamento.php";
-require_once "Imposto.php";
-require_once "TemplateDeImpostoCondicional.php";
+require_once 'Orcamento.php';
+
+require_once 'Imposto.php';
+
+require_once 'TemplateDeImpostoCondicional.php';
 
 class ICPP extends TemplateDeImpostoCondicional
 {

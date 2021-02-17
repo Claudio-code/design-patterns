@@ -2,5 +2,5 @@
 
 abstract class Implementador
 {
-  public abstract function opImpl(): void;
+    abstract public function opImpl(): void;
 }

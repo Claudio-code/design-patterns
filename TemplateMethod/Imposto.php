@@ -1,6 +1,6 @@
 <?php
 
-require_once "Orcamento.php";
+require_once 'Orcamento.php';
 
 interface Imposto
 {

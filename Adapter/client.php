@@ -1,8 +1,10 @@
 <?php
 
-require_once "OracleCommands.php";
-require_once "MySqlCommands.php";
-require_once "MySqlAdapter.php";
+require_once 'OracleCommands.php';
+
+require_once 'MySqlCommands.php';
+
+require_once 'MySqlAdapter.php';
 
 $oracle = new OracleCommands();
 $oracle->insert();

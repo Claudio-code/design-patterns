@@ -4,10 +4,12 @@ require_once 'Implementador.php';
 
 abstract class Professor
 {
-    public function __construct(
-        protected Implementador $imp,
-    ) {
+    protected Implementador $imp;
+
+    public function __construct(Implementador $imp)
+    {
+        $this->imp = $imp;
     }
 
-    public abstract function op(): void;
+    abstract public function op(): void;
 }

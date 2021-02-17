@@ -1,10 +1,9 @@
 <?php
 
-require_once "Desconto.php";
+require_once 'Desconto.php';
 
 class SemDesconto implements Desconto
 {
-
     public function desconta(Orcamento $orcamento): float
     {
         return 0;

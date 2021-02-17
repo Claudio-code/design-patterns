@@ -1,6 +1,5 @@
 <?php
 
-
 class Orcamento
 {
     private float $valor;
@@ -10,9 +9,6 @@ class Orcamento
         $this->valor = $valor;
     }
 
-    /**
-     * @return float
-     */
     public function getValor(): float
     {
         return $this->valor;

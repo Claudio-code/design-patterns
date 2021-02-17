@@ -2,5 +2,5 @@
 
 abstract class Image
 {
-    public abstract function displayImage(): void;
+    abstract public function displayImage(): void;
 }

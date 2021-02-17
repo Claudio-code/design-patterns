@@ -1,7 +1,8 @@
 <?php
 
-require_once "DbAdapter.php";
-require_once "MySqlCommands.php";
+require_once 'DbAdapter.php';
+
+require_once 'MySqlCommands.php';
 
 class MySqlAdapter implements DbAdapter
 {

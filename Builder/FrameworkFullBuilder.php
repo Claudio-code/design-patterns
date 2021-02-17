@@ -1,7 +1,8 @@
 <?php
 
-require_once "FrameWork.php";
-require_once "BuilderInterface.php";
+require_once 'FrameWork.php';
+
+require_once 'BuilderInterface.php';
 
 class FrameworkFullBuilder implements BuilderInterface
 {
@@ -21,15 +22,15 @@ class FrameworkFullBuilder implements BuilderInterface
 
     public function buildName(): void
     {
-        $this->framework->setName("frame");
+        $this->framework->setName('frame');
     }
 
     public function buildDb(): void
     {
-        $this->framework->setDb("mysql");
-        $this->framework->setDbhost("localhost");
-        $this->framework->setDbpassword("passwd");
-        $this->framework->setDbhost("localhost");
+        $this->framework->setDb('mysql');
+        $this->framework->setDbhost('localhost');
+        $this->framework->setDbpassword('passwd');
+        $this->framework->setDbhost('localhost');
     }
 
     public function buildWebpack(): void
@@ -47,9 +48,6 @@ class FrameworkFullBuilder implements BuilderInterface
         $this->framework->setFull(true);
     }
 
-    /**
-     * @return FrameWork
-     */
     public function getFramework(): FrameWork
     {
         return $this->framework;

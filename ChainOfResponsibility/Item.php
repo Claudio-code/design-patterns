@@ -1,6 +1,5 @@
 <?php
 
-
 class Item
 {
     private string $nome;
@@ -12,17 +11,11 @@ class Item
         $this->valor = $valor;
     }
 
-    /**
-     * @return string
-     */
     public function getNome(): string
     {
         return $this->nome;
     }
 
-    /**
-     * @return float
-     */
     public function getValor(): float
     {
         return $this->valor;

@@ -1,9 +1,12 @@
 <?php
 
-require_once "Prototype.php";
-require_once "Chefao.php";
-require_once "Vilao.php";
-require_once "Npc.php";
+require_once 'Prototype.php';
+
+require_once 'Chefao.php';
+
+require_once 'Vilao.php';
+
+require_once 'Npc.php';
 
 class Fase
 {
@@ -24,6 +27,7 @@ class Fase
     public function getPersonagem(string $nome): Prototype
     {
         $personagem = $this->personagensMap[$nome];
+
         return $personagem->clone();
     }
 }

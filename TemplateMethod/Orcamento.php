@@ -1,6 +1,6 @@
 <?php
 
-require_once "Item.php";
+require_once 'Item.php';
 
 class Orcamento
 {
@@ -22,9 +22,6 @@ class Orcamento
         return $this->itens;
     }
 
-    /**
-     * @return float
-     */
     public function getValor(): float
     {
         return $this->valor;

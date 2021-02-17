@@ -1,7 +1,8 @@
 <?php
 
-require_once "Orcamento.php";
-require_once "Desconto.php";
+require_once 'Orcamento.php';
+
+require_once 'Desconto.php';
 
 class DescontoMaisQuinhentosReais implements Desconto
 {

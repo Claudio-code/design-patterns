@@ -1,11 +1,12 @@
 <?php
 
-
 abstract class Prototype
 {
-    public function __clone() {}
+    public function __clone()
+    {
+    }
 
-    public abstract function lutar(): void;
+    abstract public function lutar(): void;
 
     public function clone(): self
     {

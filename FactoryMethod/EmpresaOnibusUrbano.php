@@ -1,7 +1,8 @@
 <?php
 
-require_once "Passagem.php";
-require_once "Empresa.php";
+require_once 'Passagem.php';
+
+require_once 'Empresa.php';
 
 class EmpresaOnibusUrbano extends Empresa
 {

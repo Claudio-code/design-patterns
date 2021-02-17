@@ -1,9 +1,12 @@
 <?php
 
-require_once "Orcamento.php";
-require_once "DescontoMaisQuinhentosReais.php";
-require_once "SemDesconto.php";
-require_once "DescontoPorcincoItens.php";
+require_once 'Orcamento.php';
+
+require_once 'DescontoMaisQuinhentosReais.php';
+
+require_once 'SemDesconto.php';
+
+require_once 'DescontoPorcincoItens.php';
 
 class CalculadorDescontos
 {

@@ -1,7 +1,8 @@
 <?php
 
-require_once "Orcamento.php";
-require_once "Imposto.php";
+require_once 'Orcamento.php';
+
+require_once 'Imposto.php';
 
 class ICMS implements Imposto
 {
