@@ -146,3 +146,10 @@
 #### Motivação
 
 - Separar o objeto de sua representação e de usa implementação, separando ele em objeto implementação e sua abstração.
+
+## :part_alternation_mark: Proxy
+
+#### Motivação
+
+- Fornece um substituto (surrogate) ou marcador da localição de outro objeto para controlar o acesso ao mesmo.
+- Faz um objeto ser representado por outro.

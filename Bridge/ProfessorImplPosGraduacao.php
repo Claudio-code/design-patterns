@@ -1,7 +1,5 @@
 <?php
 
-require_once './Implementador.php';
-
 class ProfessorImplPosGraduacao extends Implementador
 {
     public function opImpl(): void
