@@ -117,6 +117,9 @@
 - Evita acoplar o remetente de uma requisição ao seu destinatário ao dar a mais de um objeto a chance de servir a requisição.
 - Compõe os objetos em cascata e passa a requisição pela corrente até que um objeto sirva.
 
+<hr>
+
+
 <a id="factoryMethod"></a>
 ## :star2: Factory Method <br>
 
@@ -124,6 +127,8 @@
 
 - Definir uma interface para criar um objeto, mas deixa as subclasses decidirem que classe instanciar.
 - Criar uma instancia de varias classes derivadas.
+
+<hr>
 
 
 <a id="abstractFactory"></a>
@@ -134,6 +139,8 @@
 - Fornecer uma interface para criação de familias de objetos relacionados ou dependentes sem especificar suas classes concretas.
 - Cria uma instancia de varias familias de classes.
 
+<hr>
+
 <a id="prototype"></a>
 ## :station: Prototype <br>
 
@@ -142,6 +149,7 @@
 - Especifica os tipos  de objetos a serem criados usuados uma instância do protótipo e criar novos objetos pela cópia deste protótipo.
 - Uma instância a ser copiada ou clonada.
 
+<hr>
 
 <a id="bridge"></a>
 ## :bridge_at_night: Bridge
@@ -149,6 +157,8 @@
 #### Motivação
 
 - Separar o objeto de sua representação e de usa implementação, separando ele em objeto implementação e sua abstração.
+
+<hr>
 
 <a id="proxy"></a>
 ## :part_alternation_mark: Proxy
