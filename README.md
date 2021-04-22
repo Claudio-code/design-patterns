@@ -16,6 +16,7 @@
 - Padrôes Estruturais 
     - [Adapter](#adapter)
     - [Decorator](#decorator)
+    - [Proxy](#proxy)
 
 - Padrôes Comportamento
     - [Strategy](#strategy)
@@ -147,6 +148,7 @@
 
 - Separar o objeto de sua representação e de usa implementação, separando ele em objeto implementação e sua abstração.
 
+<a id="proxy"></a>
 ## :part_alternation_mark: Proxy
 
 #### Motivação
