@@ -17,6 +17,7 @@
     - [Adapter](#adapter)
     - [Decorator](#decorator)
     - [Proxy](#proxy)
+    - [Bridge](#bridge)
 
 - Padrôes Comportamento
     - [Strategy](#strategy)
@@ -142,6 +143,7 @@
 - Uma instância a ser copiada ou clonada.
 
 
+<a id="bridge"></a>
 ## :bridge_at_night: Bridge
 
 #### Motivação
