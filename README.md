@@ -18,6 +18,7 @@
     - [Decorator](#decorator)
     - [Proxy](#proxy)
     - [Bridge](#bridge)
+    - [Composite](#composite)
 
 - Padrôes Comportamento
     - [Strategy](#strategy)
@@ -167,3 +168,12 @@
 
 - Fornece um substituto (surrogate) ou marcador da localição de outro objeto para controlar o acesso ao mesmo.
 - Faz um objeto ser representado por outro.
+
+
+<a id="composite"></a>
+## :open_hands: Composite
+
+#### Motivação
+
+- Compor objetos em estruturas de árvore para representarem hierarquias partes do todo.
+- O composite permite aos clientes tratarem de maneira uniforme objetos individuais e compósições de objetos.
