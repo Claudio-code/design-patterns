@@ -15,6 +15,13 @@ class Gerente extends Empregada
     public function print(): void
     {
         print_r("$this->nome, $this->salario \n");
+        foreach ($this->listaSubordinados as $subordinado) {
+            if (!($subordinado instanceof Empregada)) {
+                continue;
+            }
+
+            $subordinado->print();
+        }
     }
     
     public function add(Empregada $empregada): void
