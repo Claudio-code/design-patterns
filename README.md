@@ -19,6 +19,7 @@
     - [Proxy](#proxy)
     - [Bridge](#bridge)
     - [Composite](#composite)
+    - [Façade](#facade)
 
 - Padrôes Comportamento
     - [Strategy](#strategy)
@@ -28,7 +29,7 @@
 <a id="objetivo"></a>
 ## :dart: Objetivo
 
-- Aqui foram implementados os padões de projeto mais usados com a ultima especificação da linguagem <b>PHP</b> para fins de estudo.
+- Aqui foram implementados os padrões de projeto mais usados com a última especificação da linguagem <b>PHP</b> para fins de estudo.
 
 <hr>
 
@@ -38,17 +39,17 @@
 #### Estrutura principal
 
 - Método construtor é privado.
-- Método "getInstance" responsavel por criar o objeto.
-    - Ele verifica se o objeto existe, caso contrario cria.
+- Método "getInstance" responsável por criar o objeto.
+- Ele verifica se o objeto existe, caso contrario cria.
 - Possui outros métodos como uma classe qualquer.
 
 #### Motivação
 
-- Uma unica conexão com o banco de dados.
-- Um unico acesso ao sistema de arquivos do sistema.
+- Uma única conexão com o banco de dados.
+- Um único acesso ao sistema de arquivos do sistema.
 - Sistema de logs.
-- Não há parametros para sua construção.
-- Acessivel de uma forma global.
+- Não há parâmetros para a sua construção.
+- Acessível de uma forma global.
 
 #### Consequências => Singleton como um Anti-Pattern
 
@@ -64,11 +65,11 @@
 
 #### Motivação
 
-- Converte a interface de uma classe em outra que é esperada pelo cliente.
-- Permitir que a classe que não possuem uma interface comum trabalhem de forma conjunta.
-- Deixar a possibilidade de futuras implementações para o cliente provendo uma interface para seus adaptadores.
+- Converte a ‘interface’ de uma classe em outra que é esperada pelo cliente.
+- Permitir que a classe que não possuem uma ‘interface’ comum trabalhem de forma conjunta.
+- Deixar a possibilidade de futuras implementações para o cliente provendo uma ‘interface’ para os seus adaptadores.
 
-#### Conseito
+#### Conceito
 
 - Client - é quem vai receber o produto do adapter.
 - Target - é o alvo, é a interface que o cliente tem que implementar.
@@ -81,9 +82,9 @@
 
 #### Motivação
 
-- Uma alternativa para a criação de subclasses para estender funcionalidades. A intenção é anexar dinamicamente responsabilidades adicionais flexiveis a um o objeto.
-- Aprimorar a extensibilidade do objeto, pois as alterações são feitas codificando novas classes.
-- Simplifica o desenvolvimento permitindo uma série de classes com funcionalidades especificas, ao invés de codificar todo o comportamento do objeto.
+- Uma alternativa para a criação de subclasses para estender funcionalidades. A intenção é anexar dinamicamente responsabilidades adicionais flexíveis a um objeto.
+- Aprimorar a extensibilidade do objeto, pois as alterações são feitas a codificar novas classes.
+- Simplifica o desenvolvimento permitindo uma série de classes com funcionalidades específicas, ao invés de codificar todo o comportamento do objeto.
 
 <hr>
 
@@ -93,10 +94,10 @@
 #### Motivação
 
 - Permite que a separação da construção de um objeto complexo da sua representação.
-- Permite que uma classe se preucupe com apenas uma parte da construção de um objeto. É util em algoritimos de construção complexos.
-    - É usado quando o algoritimo para criar um objeto complexo precisar ser independente das partes que compõem o objeto e da forma como o objeto é construido.
-- Também suporta substituição dos construtores, permitindo que a mesma interface seja usada para construir representações diferentes dos mesmos dados.
-    - è usado quando o processo de construção precisar suportar representações diferentes do objeto que está sendo construido.
+- Permite que uma classe se preocupe com apenas uma parte da construção de um objeto. É util em algoritmos de construção complexos.
+    - É usado quando o algoritmo para criar um objeto complexo precisar ser independente das partes que o compõem e da mesma forma como o ele é construido.
+- Também suporta substituição dos construtores, permitindo que a mesma ‘interface’ seja usada para construir representações diferentes dos mesmos dados.
+    - è usado quando o processo de construção precisar suportar representações diferentes do objeto que vai ser construido.
 
 <hr>
 
@@ -105,7 +106,8 @@
 
 #### Motivação
 
-- Definir uma familia de algoritmos, encapsular cada um, e fazê-los intercambiaveis atraves de uma interface. Assim permitindo que eles mudem independentemente entre os clientes que os utilizam. 
+- Definir um grupo de algoritmos, encapsular cada um, e fazê-los intercambiáveis através de uma ‘interface’. 
+- Assim permitindo que eles mudem independentemente entre os clientes que os utilizam. 
 
 <hr>
 
@@ -115,7 +117,7 @@
 #### Motivação
 
 - Evita dependência do remetente(cliente) de uma requisição ao seu destinatário.
-- Evita acoplar o remetente de uma requisição ao seu destinatário ao dar a mais de um objeto a chance de servir a requisição.
+- Evita acoplar o remetente de uma requisição ao seu destinatário ao dar a mais de um objeto a oportunidade de servir a requisição.
 - Compõe os objetos em cascata e passa a requisição pela corrente até que um objeto sirva.
 
 <hr>
@@ -126,8 +128,8 @@
 
 #### Motivação
 
-- Definir uma interface para criar um objeto, mas deixa as subclasses decidirem que classe instanciar.
-- Criar uma instancia de varias classes derivadas.
+- Definir uma ‘interface’ para criar um objeto, mas deixa as subclasses decidirem que classe instanciar.
+- Criar uma instância de várias classes derivadas.
 
 <hr>
 
@@ -137,8 +139,8 @@
 
 #### Motivação
 
-- Fornecer uma interface para criação de familias de objetos relacionados ou dependentes sem especificar suas classes concretas.
-- Cria uma instancia de varias familias de classes.
+- Fornecer uma ‘interface’ para criação de famílias de objetos relacionados ou dependentes sem especificar as suas classes concretas.
+- Cria uma instância de várias famílias de classes.
 
 <hr>
 
@@ -147,7 +149,7 @@
 
 #### Motivação
 
-- Especifica os tipos  de objetos a serem criados usuados uma instância do protótipo e criar novos objetos pela cópia deste protótipo.
+- Especifica os objetos a serem criados usados uma instância do protótipo e criar objetos pela cópia deste protótipo.
 - Uma instância a ser copiada ou clonada.
 
 <hr>
@@ -157,7 +159,7 @@
 
 #### Motivação
 
-- Separar o objeto de sua representação e de usa implementação, separando ele em objeto implementação e sua abstração.
+- Separar o objeto de sua representação e de usa implementação, separando ele em objeto, implementação e a sua abstração.
 
 <hr>
 
@@ -166,7 +168,7 @@
 
 #### Motivação
 
-- Fornece um substituto (surrogate) ou marcador da localição de outro objeto para controlar o acesso ao mesmo.
+- Fornece um substituto (surrogate) ou marcador da localização de outro objeto para controlar o acesso ao mesmo.
 - Faz um objeto ser representado por outro.
 
 
@@ -176,4 +178,13 @@
 #### Motivação
 
 - Compor objetos em estruturas de árvore para representarem hierarquias partes do todo.
-- O composite permite aos clientes tratarem de maneira uniforme objetos individuais e compósições de objetos.
+- O composite permite aos clientes tratarem de maneira uniforme objetos individuais e composições de objetos.
+
+<a id="facade"></a>
+## :tada: Façade
+
+#### Motivação
+
+- Fornecer uma ‘interface’ unificada para um conjunto de ‘interfaces’ num subsistema.
+- Façade define uma ‘interface’ de nível mais alto que torna o subsistema mais fácil de ser usado.
+- Uma única classe representa um subsistema inteiro.
