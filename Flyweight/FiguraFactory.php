@@ -14,10 +14,12 @@ class FiguraFactory
             return self::$figuras[$nome];
         }
 
-        return self::$figuras[$nome] = match($nome) {
+        self::$figuras[$nome] = match($nome) {
             "Oval preenchida" => new Oval(true),
             "Oval nao preenchida" => new Oval(false),
             "Linha" => new Linha(),
         };
+
+        return self::$figuras[$nome];
     }
 }

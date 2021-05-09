@@ -14,5 +14,5 @@ abstract class Figura
         return $this->type;
     }
 
-    public abstract function desenha(string $cor): void;
+    abstract public function desenha(string $cor): void;
 }
