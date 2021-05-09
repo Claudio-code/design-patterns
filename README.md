@@ -20,6 +20,7 @@
     - [Bridge](#bridge)
     - [Composite](#composite)
     - [Façade](#facade)
+    - [Flyweight](#flyweight)
 
 - Padrôes Comportamento
     - [Strategy](#strategy)
@@ -188,3 +189,10 @@
 - Fornecer uma ‘interface’ unificada para um conjunto de ‘interfaces’ num subsistema.
 - Façade define uma ‘interface’ de nível mais alto que torna o subsistema mais fácil de ser usado.
 - Uma única classe representa um subsistema inteiro.
+
+<a id="flyweight"></a>
+## :balloon: Flyweight
+
+#### Motivação
+
+- Usa o compartilhamento para suportar eficientemente grandes quantidades de objetos de granularidade fina.
