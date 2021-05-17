@@ -25,6 +25,7 @@
 - Padrôes Comportamento
     - [Strategy](#strategy)
     - [Chain of Responsibility](#chainOfResponsibility)
+    - [Command](#command)
 
 <br><br>
 <a id="objetivo"></a>
@@ -196,3 +197,12 @@
 #### Motivação
 
 - Usa o compartilhamento para suportar eficientemente grandes quantidades de objetos de granularidade fina.
+
+<a id="command"></a>
+## :balloon: Command
+
+#### Motivação
+
+- Encapsular uma solicitação como um objeto, desta forma permitindo parametrizar clientes com diferentes solicitações.
+- Enfileirar ou fazer o registro de solicitações e suportar operações que podem ser desfeitas.
+- Encapsular comandos como um objeto.
