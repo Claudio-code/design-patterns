@@ -17,15 +17,13 @@ class Invoker
     public function undo(int $levels): void
     {
         for ($index = 0; $index < $levels; $index++) {
-            if ($this->current <= 0) {
+            $command = $this->comandos[--$this->current];
+            if (!($command instanceof Command)) {
                 continue;
             }
 
-            $command = $this->comandos[--$this->current];
-            if ($command instanceof Command) {
-                $command->undo();
-                unset($this->comandos[--$this->current]);
-            }
+            $command->undo();
+            unset($this->comandos[--$this->current]);
         }
     }
 }
