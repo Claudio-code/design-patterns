@@ -35,7 +35,7 @@
 <hr>
 
 <a id="singleton"></a>
-### :gem: Singleton <br>
+## :gem: Singleton <br>
 
 #### Estrutura principal
 
@@ -62,7 +62,7 @@
 <hr>
 
 <a id="adapter"></a>
-### :wrench: Adapter <br>
+## :wrench: Adapter <br>
 
 #### Motivação
 
@@ -79,7 +79,7 @@
 <hr>
 
 <a id="decorator"></a>
-### :christmas_tree: Decorator <br>
+## :christmas_tree: Decorator <br>
 
 #### Motivação
 
@@ -90,7 +90,7 @@
 <hr>
 
 <a id="builder"></a>
-### :package: Builder <br>
+## :package: Builder <br>
 
 #### Motivação
 
@@ -103,7 +103,7 @@
 <hr>
 
 <a id="strategy"></a>
-### :dart: Strategy <br>
+## :dart: Strategy <br>
 
 #### Motivação
 
@@ -113,7 +113,7 @@
 <hr>
 
 <a id="chainOfResponsibility"></a>
-### :bomb: Chain of Responsibility <br>
+## :bomb: Chain of Responsibility <br>
 
 #### Motivação
 
