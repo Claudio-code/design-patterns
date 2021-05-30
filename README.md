@@ -26,6 +26,7 @@
     - [Strategy](#strategy)
     - [Chain of Responsibility](#chainOfResponsibility)
     - [Command](#command)
+    - [State](#state)
 
 <br><br>
 <a id="objetivo"></a>
@@ -206,3 +207,11 @@
 - Encapsular uma solicitação como um objeto, desta forma permitindo parametrizar clientes com diferentes solicitações.
 - Enfileirar ou fazer o registro de solicitações e suportar operações que podem ser desfeitas.
 - Encapsular comandos como um objeto.
+
+<a id="state"></a>
+## :smile: State
+
+#### Motivação
+
+- Permite a um objeto alterar seu comportamento quando o seu estado interno muda. O objeto parecera ter mudado sua classe.
+- Alterar o comportamento de um objeto quando seu estado muda.
