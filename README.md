@@ -27,6 +27,7 @@
     - [Chain of Responsibility](#chainOfResponsibility)
     - [Command](#command)
     - [State](#state)
+    - [Observer](#observer)
 
 <br><br>
 <a id="objetivo"></a>
@@ -215,3 +216,11 @@
 
 - Permite a um objeto alterar seu comportamento quando o seu estado interno muda. O objeto parecera ter mudado sua classe.
 - Alterar o comportamento de um objeto quando seu estado muda.
+
+
+<a id="observer"></a>
+## :flushed: Observer
+
+#### Motivação
+
+- Definir uma dependência um-para-muitos entre objetos, de maneira que quando um objeto muda de estado todos os seus dependentes são notificados e atualizados automaticamente.
