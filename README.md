@@ -28,6 +28,7 @@
     - [Command](#command)
     - [State](#state)
     - [Observer](#observer)
+    - [Mediator](#mediator)
 
 <br><br>
 <a id="objetivo"></a>
@@ -224,3 +225,11 @@
 #### Motivação
 
 - Definir uma dependência um-para-muitos entre objetos, de maneira que quando um objeto muda de estado todos os seus dependentes são notificados e atualizados automaticamente.
+
+<a id="mediator"></a>
+## :eyes: Mediator
+
+#### Motivação
+
+- Definir um objeto que encapsula a forma como um conjunto de objetos interage O Mediator promove o acoplamento fraco ao evitar que os objetos se refiram uns aos outros explicitamente e permite variar as suas interações independentemente.
+- Definir uma comunicação simplificada entre as classes.
