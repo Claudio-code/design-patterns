@@ -29,6 +29,7 @@
     - [State](#state)
     - [Observer](#observer)
     - [Mediator](#mediator)
+    - [Template Method](#templateMethod)
 
 <br><br>
 <a id="objetivo"></a>
@@ -176,6 +177,7 @@
 - Fornece um substituto (surrogate) ou marcador da localização de outro objeto para controlar o acesso ao mesmo.
 - Faz um objeto ser representado por outro.
 
+<hr>
 
 <a id="composite"></a>
 ## :open_hands: Composite
@@ -188,11 +190,15 @@
 <a id="facade"></a>
 ## :tada: Façade
 
+<hr>
+
 #### Motivação
 
 - Fornecer uma ‘interface’ unificada para um conjunto de ‘interfaces’ num subsistema.
 - Façade define uma ‘interface’ de nível mais alto que torna o subsistema mais fácil de ser usado.
 - Uma única classe representa um subsistema inteiro.
+
+<hr>
 
 <a id="flyweight"></a>
 ## :balloon: Flyweight
@@ -200,6 +206,8 @@
 #### Motivação
 
 - Usa o compartilhamento para suportar eficientemente grandes quantidades de objetos de granularidade fina.
+
+<hr>
 
 <a id="command"></a>
 ## :balloon: Command
@@ -210,6 +218,8 @@
 - Enfileirar ou fazer o registro de solicitações e suportar operações que podem ser desfeitas.
 - Encapsular comandos como um objeto.
 
+<hr>
+
 <a id="state"></a>
 ## :smile: State
 
@@ -218,6 +228,7 @@
 - Permite a um objeto alterar seu comportamento quando o seu estado interno muda. O objeto parecera ter mudado sua classe.
 - Alterar o comportamento de um objeto quando seu estado muda.
 
+<hr>
 
 <a id="observer"></a>
 ## :flushed: Observer
@@ -226,6 +237,8 @@
 
 - Definir uma dependência um-para-muitos entre objetos, de maneira que quando um objeto muda de estado todos os seus dependentes são notificados e atualizados automaticamente.
 
+<hr>
+
 <a id="mediator"></a>
 ## :eyes: Mediator
 
@@ -233,3 +246,14 @@
 
 - Definir um objeto que encapsula a forma como um conjunto de objetos interage O Mediator promove o acoplamento fraco ao evitar que os objetos se refiram uns aos outros explicitamente e permite variar as suas interações independentemente.
 - Definir uma comunicação simplificada entre as classes.
+
+<hr>
+
+<a id="templateMethod"></a>
+## :eyes: Template Method
+
+#### Motivação
+
+- Definir o esqueleto de um algoritmo numa operação, postergando alguns passos para a subclasse esse padrão permiteque subclasses definam certos passos de um algoritmo sem mudar a estrutura do mesmo.
+
+<hr>
