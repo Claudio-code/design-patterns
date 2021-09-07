@@ -272,7 +272,7 @@
 <hr>
 
 <a id="memento"></a>
-## :suspect: Memento
+## :trollface: Memento
 
 #### Motivação
 
