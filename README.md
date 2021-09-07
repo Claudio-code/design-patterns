@@ -30,6 +30,7 @@
     - [Observer](#observer)
     - [Mediator](#mediator)
     - [Template Method](#templateMethod)
+    - [Interpreter](#interpreter)
 
 <br><br>
 <a id="objetivo"></a>
@@ -254,6 +255,17 @@
 
 #### Motivação
 
-- Definir o esqueleto de um algoritmo numa operação, postergando alguns passos para a subclasse esse padrão permiteque subclasses definam certos passos de um algoritmo sem mudar a estrutura do mesmo.
+- Definir o esqueleto de um algoritmo numa operação, postergando alguns passos para a subclasse esse padrão permite que subclasses definam certos passos de um algoritmo sem mudar a estrutura do mesmo.
+
+<hr>
+
+<a id="interpreter"></a>
+## :suspect: Interpreter
+
+#### Motivação
+
+- Dada uma linguagem, definir uma representação para a sua gramática com um interpretador que usa representação para interpretar sentenças da linguagem.
+- Uma forma de incluir elementos da linguagem num programa.
+- Usa classes para representar cada regra de uma gramática (expressão regular).
 
 <hr>
