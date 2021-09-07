@@ -13,7 +13,7 @@
     - [Abstract Factory](#abstractFactory)
     - [Prototype](#prototype)
 
-- Padrôes Estruturais 
+- Padrões Estruturais 
     - [Adapter](#adapter)
     - [Decorator](#decorator)
     - [Proxy](#proxy)
@@ -22,7 +22,7 @@
     - [Façade](#facade)
     - [Flyweight](#flyweight)
 
-- Padrôes Comportamento
+- Padrões Comportamento
     - [Strategy](#strategy)
     - [Chain of Responsibility](#chainOfResponsibility)
     - [Command](#command)
@@ -31,6 +31,7 @@
     - [Mediator](#mediator)
     - [Template Method](#templateMethod)
     - [Interpreter](#interpreter)
+    - [Memento](#memento)
 
 <br><br>
 <a id="objetivo"></a>
@@ -269,3 +270,10 @@
 - Usa classes para representar cada regra de uma gramática (expressão regular).
 
 <hr>
+
+<a id="memento"></a>
+## :suspect: Memento
+
+#### Motivação
+
+- Sem violar o encapsulamento, capturar e externalizar um estado interno de um objeto, de maneira que o objeto possa ser restaurado para este estado mais tarde.
